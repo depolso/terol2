@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accompain - Made to Serve</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #faf0e6; /* Light beige for a retro feel */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2d2d2d;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #9370db; /* Light purple border */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 3px;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.3em;
+            color: #d3d3d3; /* Light grey for the tagline */
+        }
+        nav {
+            background-color: #9370db;
+            text-align: center;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.2em;
+            display: inline-block;
+        }
+        nav a:hover {
+            color: #2d2d2d;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            color: #9370db;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #2d2d2d;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+        .icon {
+            margin-right: 10px;
+            color: #9370db;
+        }
+        .retro-link {
+            color: #9370db; /* Light purple */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .retro-link:hover {
+            text-decoration: underline;
+        }
+        .foss-tools, .contact-info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .foss-tools div, .contact-info div {
+            flex: 1 1 200px;
+            margin: 10px;
+            text-align: center;
+        }
+        .foss-tools div {
+            background-color: #f9f1f7; /* Slightly pinkish background */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+    <!-- Link to FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-a5OXeJwNEN8v2E9bGqfdfdHC+KZc5HJy7mtnQHHH3aeALlQzHVGlqEl8OKQbHgTf5L7F8tLTsq+gh0IfCE1L4A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <h1>Accompain</h1>
+        <p>Made to Serve</p>
+    </header>
+
+    <nav>
+        <a href="#opensource"><i class="fas fa-tools icon"></i>Open Source Tools</a>
+        <a href="#contact"><i class="fas fa-envelope icon"></i>Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="opensource">
+            <h2>Open Source & FOSS Tools</h2>
+            <div class="foss-tools">
+                <div>
+                    <i class="fas fa-code icon"></i>
+                    <h3>Development Tools</h3>
+                    <p>Explore powerful development tools that are open-source and freely available for all developers.</p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop-code icon"></i>
+                    <h3>Software Solutions</h3>
+                    <p>Find efficient software solutions that cater to various needs, all free and open-source.</p>
+                </div>
+                <div>
+                    <i class="fas fa-cloud icon"></i>
+                    <h3>Cloud Services</h3>
+                    <p>Learn about open-source cloud services that provide robust solutions for hosting and management.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-envelope icon"></i>
+                    <p>Email: <a href="mailto:deepakgowda974259@example.com" class="retro-link">deepak@example.com</a></p>
+                </div>
+                <div>
+                    <i class="fas fa-phone icon"></i>
+                    <p>Phone: +91 6360672730</p>
+                </div>
+                <div>
+                    <i class="fab fa-linkedin icon"></i>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="retro-link"><br>Deepak's LinkedIn</a></p> </a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Accompain. Some rights are reserved.</p>
+    </footer>
+</body>
+
+</html>
